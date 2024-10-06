@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Click to Show Image</title>
+    <style>
+        #image-container {
+            display: none;
+            text-align: center;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+    </style>
+</head>
+<body>
+
+<h2>dont click this</h2>
+
+<button onclick="showImage()">Show Image</button>
+
+<div id="image-container">
+    <img src="https://i.pinimg.com/originals/08/66/95/086695e7a58b602db5eb232984fb86fc.jpg" alt="cat hand">
+</div>
+<nav><b>
+    <a href="index.html">Home</a> &nbsp; 
+    <a href="menu.html">Menu</a> &nbsp; 
+    <a href="music.html">Music</a> &nbsp; 
+    <a href="jobs.html">Jobs</a>
+    </b>
+    </nav>
+<script>
+    function showImage() {
+        document.getElementById('image-container').style.display = 'block';
+    }
+</script>
+
+</body>
+</html>
