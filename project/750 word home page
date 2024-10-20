@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>750 Words for me wife</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome to 750 website where you write 750 words a day so the althimerz dont get ya</h1>
+        <p>Your private space to write 750 words every day! or else!</p>
+        <a href="login.html">Login</a> | <a href="signup.html">Sign Up</a>
+    </header>
+    <section>
+        <h2>Why Write Every Day?</h2>
+        <p>Writing every day clears your mind, enhances your creativity, and builds a habit. It prevents the hat man from getting you!</p>
+    </section>
+</body>
+</html>
