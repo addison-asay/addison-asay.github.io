@@ -1,18 +1,33 @@
 :root {
     --primary-color: #3498db; /* mr blue sky */
     --secondary-color: #0c7c3b; /* Shrek */
-    --background-color: #e4e4; /* swamp berry */
+    --background-color: #e4e4e4; /* swamp berry */
     --text-color: #333333; /* Darkness */
 }
 
+body {
+    background-color: var(--background-color);
+    color: var(--text-color);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 #wrapper {
+    display: grid; /* grid for layout */
+    grid-template-areas: 
+        "header header"
+        "nav main"
+        "footer footer";
+    grid-template-columns: 1fr 3fr; /* Two columns: 1 part for nav, 3 parts for main content */
+    grid-template-rows: auto 1fr auto;
     background-color: #dfb20f; /* whopper */
     margin-left: auto;
     margin-right: auto;
     width: 80%;
+    min-height: 100vh; /* Ensure the wrapper takes up the full viewport height */
 }
 
 header {
+    grid-area: header;
     background-color: #D2B48C;
     color: #8C3826;
     text-align: center;
@@ -25,7 +40,7 @@ header h1, header nav {
 h1 {
     line-height: 200%;
     color: var(--primary-color);
-    font: 'Times New Roman', Times, serif;
+    font-family: 'Times New Roman', Times, serif;
 }
 
 h2 {
@@ -33,23 +48,32 @@ h2 {
 }
 
 nav {
+    grid-area: nav;
+    background-color: #eee; /* Optional: a background color for nav */
+    padding: 20px;
     font-weight: bold;
     text-align: center;
 }
-  
+
+main {
+    grid-area: main;
+    background-color: white;
+    padding: 20px;
+}
+
+main img {
+    max-width: 100%;
+    height: auto;
+}
 
 footer {
+    grid-area: footer;
     background-color: #b9761e;
-    font-size: .60em;
+    font-size: 0.60em;
     font-style: italic;
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
-}
-
-body {
-    background-color: var(--background-color);
-    color: var(--text-color);
-    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px 0;
 }
 
 p {
