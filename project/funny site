@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>The Shrimpiendix Experience</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Are you Shrimpsperienced?</h1>
+        <img src="/api/placeholder/300/200" alt="Funny Cat" style="max-width: 300px;">
+        
+        <div>
+            <a href="mind-reader.html">Mind Reader Page</a>
+            <br>
+            <a href="shrimp-page.html">Get Shrimped!</a>
+        </div>
+    </div>
+</body>
+</html>
+

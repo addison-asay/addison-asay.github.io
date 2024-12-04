@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Shrimp Experience</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Get Shrimped!</h1>
+        <button onclick="getShrimped()">Click to Get Shrimped</button>
+        <img id="shrimp-image" src="shrimp.jpg" alt="Deep Fried Shrimp">
+        <audio id="shrimp-sound">
+            <source src="data:audio/wav;base64,UklGRhQAAABXQVZFZm10IBAAAAABAAEARKwAAIhYAQACABAAZGF0YQAAAA==" type="audio/wav">
+        </audio>
+    </div>
+
+    <script src="javathescript.js"></script>
+</body>
+</html>

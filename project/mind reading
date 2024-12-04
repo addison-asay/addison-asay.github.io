@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Mind Reader</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Mind Reader Extraordinaire</h1>
+        <p>Type what's on your mind, and I'll reveal your thoughts!</p>
+        
+        <input type="text" id="mindInput" placeholder="What are you thinking?">
+        <button onclick="readMind()">Submit</button>
+        
+        <div id="loading">
+            <p>Reading your mind...</p>
+            <div class="loading">🌀</div>
+        </div>
+        
+        <div id="result"></div>
+    </div>
+
+    <script src="javathescript.js"></script>
+</body>
+</html>

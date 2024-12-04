@@ -1,0 +1,26 @@
+body { 
+    font-family: Arial, sans-serif; 
+    text-align: center; 
+    background-color: #f0f0f0; 
+}
+.container {
+    background-color: white;
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+.loading {
+    display: none;
+    animation: spin 2s linear infinite;
+}
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+#shrimp-image {
+    display: none;
+    max-width: 100%;
+    margin-top: 20px;
+}
