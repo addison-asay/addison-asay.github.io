@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>Shrimp Experience</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
     <div class="container">
@@ -15,6 +15,6 @@
         </audio>
     </div>
 
-    <script src="javathescript.js"></script>
+    <script src="js/javathescript.js"></script>
 </body>
 </html>
