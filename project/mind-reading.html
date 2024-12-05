@@ -6,21 +6,35 @@
     <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="get-shrimped.html">Get Shrimped</a>
+        <a href="mind-reading.html">Mind Reading</a>
+        <a href="random-shrimp.html">be brave</a>
+    </nav>
     <div class="container">
-        <h1>Mind Reader Extraordinaire</h1>
-        <p>Type what's on your mind, and I'll reveal your thoughts!</p>
+        <h1>Do shrimp think?</h1>
+        <p>idk man, but i can guess what you thinking bout frfr Type it below</p>
         
-        <input type="text" id="mindInput" placeholder="What are you thinking?">
-        <button onclick="readMind()">Submit</button>
-        
-        <div id="loading">
-            <p>Reading your mind...</p>
-            <div class="loading">🌀</div>
+        <div id="input-section">
+            <input type="text" id="mindInput" placeholder="Enter your thought here">
+            <button id="submitBtn">Submit</button>
         </div>
         
+        <div class="loading" id="loading-animation">
+            <p>Reading your mind...</p>
+            <div class="spinner"></div>
+            
+        </div>
+
         <div id="result"></div>
+        <audio id="backgroundAudio">
+            <source src="images/mind-music.mp3" type="audio/mpeg">
+            Your browser does not support the audio element.
+        </audio>
+    </div>
     </div>
 
-    <script src="js/javathescript.js"></script>
+    <script src="js/script.js"></script>
 </body>
 </html>

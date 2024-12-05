@@ -6,15 +6,28 @@
     <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
+  <nav style="background-color: #f8f9fa; padding: 10px; text-align: center;">
+    <a href="index.html" style="margin: 0 15px;">Home</a>
+    <a href="get-shrimped.html" style="margin: 0 15px;">Get Shrimped</a>
+    <a href="mind-reading.html" style="margin: 0 15px;">Mind Reading</a>
+    <a href="random-shrimp.html">be brave</a>
+</nav>
     <div class="container">
-        <h1>Get Shrimped!</h1>
+        <h1>Get Shrimped!</h1>       
         <button onclick="getShrimped()">Click to Get Shrimped</button>
-        <img id="shrimp-image" src="shrimp.jpg" alt="Deep Fried Shrimp">
+        
+        <img id="shrimp-image" src="images/chairshrimp.jpg" alt="Deep Fried Shrimp" style="display: none;">
         <audio id="shrimp-sound">
-            <source src="data:audio/wav;base64,UklGRhQAAABXQVZFZm10IBAAAAABAAEARKwAAIhYAQACABAAZGF0YQAAAA==" type="audio/wav">
+          <source src="images/shrimp-sound.mp3" type="audio/mpeg">
         </audio>
+        
+        <audio id="guitar-sound">
+          <source src="images/guitar-solo.mp3" type="audio/mpeg">
+        </audio>
+        
+        <img id="guitar-shrimp" src="images/guitar-shrimp.jpg" alt="Guitar Shrimp" style="display: none; animation: dance 10s linear infinite;">    
     </div>
 
-    <script src="js/javathescript.js"></script>
+    <script src="js/script.js"></script>
 </body>
 </html>
